@@ -1,0 +1,115 @@
+body{
+ font: 15px arial, hevelgica, sans-serif;
+ padding: 0; /*margen externa*/
+ margin: 0; /*margen interna*/
+ background:scr=(..) 
+
+}
+
+/*estilos Globales*/
+.contenedor
+/*<video controls="controls" width="400px" height="400px">
+			<source src="video.mp4" type="video/mp4">
+			<source src="video.webm" type="video/webm">
+</video> esto sirve para poner videos*/
+
+
+}
+p 
+
+{
+ color: blue;
+ font-size: 20px
+}
+ 
+span
+{
+ color:red;
+ font-family:arial; 
+ font-size: 25px
+}
+h4 
+{
+ color: blue;
+ font-size: 20px
+}
+/*esta pseudo clase es de la etiqueta id*/
+
+#texto1{ 
+ font-color:#E57518;
+ font-size: 22px;
+ float: 
+}
+/*esta pseudo clase es de la etiqueta class*/
+.texto
+{
+font-size: 20px;
+border-color:#1BEAD8; 
+color:blue;
+}
+
+p.texto 
+{ 
+ font-size: 30px 
+
+}
+ 
+*{
+margin: 0px;
+}
+p:nth-child(1)
+{
+background: #999999;
+}
+p:nth-child(2)
+{
+background: #999999;
+}
+p:nth-child(3)
+{
+background: #999999;
+}
+p:nth-child(4)
+{
+background: #999999;
+}
+*{
+margin: 0px;
+}
+p:nth-child(odd){
+background: #999999;
+}
+p:nth-child(even){
+background: #CCCCCC;
+}
+
+/* esta son otra importantes pseudo clases
+firstchild,
+last-child y only-child,*/
+
+*{
+margin: 0px;
+}
+p:last-child{
+background: #999999;
+color:red;
+}
+/*el elemento de la es afectado cuando el de izquierda es su padre*/
+div > p.mitexto2{
+color: #990000;
+}
+/*afecta al elemento <p> que se encuentra ubicado luego de
+otro elemento <p> identificado con el valor mitexto2 en su atributo class.*/
+p.mitexto2 + p{
+color: #990000;
+}
+/*afecta al tercer y cuarto elemento <p> de nuestra plantilla de
+ejemplo. El estilo será aplicado a todos los elementos <p> que son hermanos y se
+encuentran luego del elemento <p>*/
+
+p.mitexto2 ~ p{
+color: #990000;
+}
+p:last-child{
+background: #999999;
+}

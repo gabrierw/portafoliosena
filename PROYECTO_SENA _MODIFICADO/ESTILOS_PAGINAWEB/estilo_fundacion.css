@@ -1,0 +1,68 @@
+*{margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    text-decoration:none;
+    font-family: sans-serif;
+
+
+}
+
+
+body{background-image:url(imagen_sena2.jpg);
+    background-size: cover;
+    background-repeat:no-repeat ;
+    background-position: center;
+    background-attachment: fixed;
+   
+
+
+
+}
+
+main{width:100% ;
+    padding: 20px;
+    margin-top:100px;
+}
+
+
+.contenedor__todo{width:100%;
+    max-width: 600px;
+    margin: auto;
+    position: relative;
+    margin-top: 180px;
+
+}
+
+
+
+
+.caja__trasera{width:100%;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    backdrop-filter: blur(10px);
+    background-color:transparent;
+    height: 450px;
+}
+
+
+
+.caja__trasera-login{margin: 60px 40px;
+    color: rgb(255, 255, 255);
+    transition: all 500ms; 
+}
+
+
+
+#btn__iniciar_sesion{margin-top: 30px;
+    padding: 10px 40px;
+    border:2px solid white;
+    background: transparent;
+    font-size: 14px;
+    font-weight: 600;
+    cursor:pointer;
+    color:white;
+    transform: all 300ms;
+    margin-left: 30px;
+      
+}

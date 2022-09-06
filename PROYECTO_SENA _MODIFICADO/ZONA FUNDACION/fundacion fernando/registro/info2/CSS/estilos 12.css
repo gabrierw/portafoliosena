@@ -1,0 +1,478 @@
+body
+{
+text-align:center;
+font: 20px, arial, hevelgica, sans-serif;
+padding: 40px; 
+/*margen externa margin: 0px; 
+/*margen interna pading */
+background:#ccccff;
+width: 100%;
+max-width:100%;
+-moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+}
+
+*{
+margin: 0px;
+padding: 0px;
+}
+:not(p){
+margin: 0px;
+}
+marquee{font:bold 5vw castellar, sans-serif;
+color:rgb(90, 200, 5);
+float:center;
+padding: 5px;
+margin: 20px;
+width:60%;
+border:none;
+}
+h1{
+font: bold 5vw castellar, sans-serif;
+color:#aaffcc;
+
+}
+h2 {
+font: bold 2.5vw, sans-serif;
+font-family:  impact, sans-serif;
+color: blue;
+}
+a
+{
+font-size: 1.7vw;
+}
+p
+{
+font-family: Rockwell, sans-serif;
+font-size: 1.5vw;
+}
+strong
+{
+ font-size: 1.5vw;
+  color:green;
+}
+
+blockquote
+{
+font-size: 1.5vw;
+}
+/*esto hara que se conporten como bloques para poder organizarlos*/
+header, section, footer, aside, nav, article, figure, figcaption,
+hgroup
+{
+display:block;
+}
+.video{
+float:center;
+padding: 5px;
+margin: 20px;
+border: 5px solid #555555; 
+background: #555555;
+width: 55%;
+height: auto;
+-moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+-moz-border-radius: 20px;
+-webkit-border-radius: 20px;
+border-radius: 20px;
+-moz-box-shadow: rgb(50,50,50) 10px 10px 10px;
+-webkit-box-shadow: rgb(50,50,50) 10px 10px 10px;
+box-shadow: rgb(50,50,50) 10px 10px 10px;
+}
+.imagen1
+{
+float:right;
+padding: 5px;
+margin: 10px;
+border: 5px solid #555555; 
+background: #555555;
+width: 45%;
+height: auto;
+-moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+-moz-border-radius: 20px;
+-webkit-border-radius: 20px;
+border-radius: 20px;
+-moz-box-shadow: rgb(50,50,50) 10px 10px 10px;
+-webkit-box-shadow: rgb(50,50,50) 10px 10px 10px;
+box-shadow: rgb(50,50,50) 10px 10px 10px;
+}
+#agrupar
+{
+background: url('../imagenes/fondo 1.jpg');
+background-position: 100%;
+background-repeat:repeat;
+border: 5px solid #555555;
+padding: 30px;
+height:1200px;
+max-height:auto;
+-moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+-moz-border-radius: 50px 50px 50px 50px;
+-webkit-border-radius: 50px 50px 50px 50px;
+border-radius: 50px 50px 50px 50px;
+-moz-box-shadow: rgb(40,40,40) 10px 10px 10px;
+-webkit-box-shadow: rgb(40,40,40) 10px 10px 10px;
+box-shadow: rgb(40,40,40) 10px 10px 10px;
+}
+#cabecera
+{
+background: rgba(5,70,5,0.7);
+border: 5px solid #555555;
+padding: 30px;
+-moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+-moz-border-radius: 25px;
+-webkit-border-radius: 25px;
+border-radius: 25px;
+-moz-box-shadow: rgb(50,50,50) 10px 10px 10px;
+-webkit-box-shadow: rgb(50,50,50) 10px 10px 10px;
+box-shadow: rgb(50,50,50) 10px 10px 10px;
+}
+#article
+{
+text-align:center;
+margin: 20px;
+padding: 20px;
+background: #CCCCFF;
+width: 50%;
+height:auto;
+border: 4px solid #555555;
+-moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+-moz-border-radius: 20px;
+-webkit-border-radius: 20px;
+border-radius: 20px;
+-moz-box-shadow: rgb(50,50,50) 10px 10px 10px;
+-webkit-box-shadow: rgb(50,50,50) 10px 10px 10px;
+box-shadow: rgb(50,50,50) 10px 10px 10px;
+}
+
+#header {
+margin:auto;
+width:100%;
+font-family:Broadway, sans-serif;
+}               
+            
+ul, ol {
+list-style:none;
+}
+            
+.nav > li {
+float:left;
+}
+            
+.nav li a {
+background-color:rgb(30,30,30);
+color:#fff;
+text-decoration:none;
+margin: 20px;
+padding:15px 12px;
+display:block;
+border: 5px solid #9456aa;
+-moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+border-radius: 10px;
+-moz-box-shadow: rgb(50,50,50) 10px 10px 10px;
+-webkit-box-shadow: rgb(50,50,50) 10px 10px 10px;
+box-shadow: rgb(50,50,50) 10px 10px 10px;
+}
+.nav li a:hover {
+background-color:rgba(40,40,40, 0.9);
+}
+            
+.nav li ul {
+display:none;
+position:absolute;
+min-width:140px;
+}
+            
+.nav li:hover > ul {
+display:block;
+}
+.nav li ul li {
+position:relative;
+}
+            
+.nav li ul li ul {
+right:-140px;
+top:0px;
+}
+
+#seccion {
+float:left;
+width: 20%;
+margin: 20px;
+padding: 20px;
+background: #CCCCFF;
+border: 4px solid #555555;
+-moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+-moz-border-radius: 20px;
+-webkit-border-radius: 20px;
+border-radius: 20px;
+-moz-box-shadow: rgb(50,50,50) 10px 10px 10px;
+-webkit-box-shadow: rgb(50,50,50) 10px 10px 10px;
+box-shadow: rgb(50,50,50) 10px 10px 10px;
+}
+#columna {
+float:left;
+width: 20%;
+margin: 20px 0px;
+padding: 5px;
+clear: both;
+background: #CCCCFF;
+border: 4px solid #555555;
+-moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+-moz-border-radius: 20px;
+-webkit-border-radius: 20px;
+border-radius: 20px;
+-moz-box-shadow: rgb(50,50,50) 10px 10px 10px;
+-webkit-box-shadow: rgb(50,50,50) 10px 10px 10px;
+box-shadow: rgb(50,50,50) 10px 10px 10px;
+
+}
+#pie {
+clear:both;
+text-align:center;
+padding: 20px;
+border-top: none;
+-moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+}
+/*este sirve para que este a cierta medida de pixeles haga lo que se le ordene*/
+@media screen  and (max-width:1100px){ 
+    
+    #seccion{
+        float:left;
+        width: 20%;
+        margin: 20px;
+        padding: 20px;
+
+    }
+    #agrupar{
+        width:100%;
+    }
+    .imagen1{
+        width:40%;
+
+    }
+    .video{
+        width: 40%;
+    }
+ }
+@media screen  and (max-width:1000px){ 
+    
+    #seccion{
+        width:20%;
+    }
+    #agrupar{
+        width:100%;
+    }
+    .imagen1{
+        width:40%;
+
+    }
+    .video{
+        width: 40%;
+    }
+ }
+
+@media screen  and (max-width:900px){ 
+    
+    #seccion{
+        width:20%;
+    }
+    #agrupar{
+        width:100%;
+    }
+    .imagen1{
+        width:40%;
+
+    }
+    .video{
+        width: 40%;
+    }
+ }
+
+@media screen  and (max-width:800px){ 
+ 	
+ 	#seccion{
+ 		width:25%;
+ 	}
+ 	#agrupar{
+ 		width:100%;
+ 	}
+    .imagen1{
+        width:40%;
+
+    }
+    .video{
+        width:40%;
+    }
+ }
+ @media screen  and (max-width:700px){ 
+    #columna {
+        width: 40%;
+        
+    }
+    #seccion{
+        width:40%;
+    }
+    #agrupar{
+        width:100%;
+    }
+    .imagen1{
+        width:40%;
+
+    }
+    .video{
+        width: 40%;
+    }
+
+ @media screen  and (max-width:650px){ 
+    #columna {
+        width: 40%;
+        
+    }
+    #seccion{
+        width:50%;
+    }
+    #agrupar{
+        width:100%;
+    }
+    .imagen1{
+        width:60%;
+
+    }
+    .video{
+        width: 60%;
+    }
+ @media screen  and (max-width:600px){ 
+      #columna {
+        width: 60%;
+    }
+    
+    #seccion{
+        width:60%;
+    }
+    #agrupar{
+        width:100%;
+    }
+    .imagen1{
+        width:70%;
+
+    }
+    .video{
+        width: 70%;
+    }
+   
+ @media screen  and (max-width:500px){ 
+     #columna {
+        width: 50%;
+    }
+    
+    #seccion{
+        width:60%;
+    }
+    #agrupar{
+        width:100%;
+    }
+    .imagen1{
+        width:60%;
+
+    }
+    .video{
+        width: 60%;
+    }
+ @media screen  and (max-width:400px){ 
+     #columna {
+        width: 70%;
+    }
+    
+    #seccion{
+        width:70%;
+    }
+    #agrupar{
+        width:100%;
+    }
+    .imagen1{
+        width:80%;
+
+    }
+    .video{
+        width: 80%;
+    }
+ @media screen  and (max-width:300px){ 
+      #columna {
+        width: 70%;
+    }
+    #seccion{
+        width:60%;
+    }
+    #agrupar{
+        width:100%;
+    }
+    .imagen1{
+        width:40%;
+
+    }
+    .video{
+        width: 40%;
+    }
+ @media screen  and (max-width:250px){ 
+      #columna {
+        width: 70%;
+    }
+    
+    #seccion{
+        width:60%;
+    }
+    #agrupar{
+        width:100%;
+    }
+    .imagen1{
+        width:40%;
+
+    }
+    .video{
+        width: 40%;
+    }
+@media screen  and (max-width:200px){ 
+      #columna {
+        width: 70%;
+    }
+    
+    #seccion{
+        width:60%;
+    }
+    #agrupar{
+        width:100%;
+    }
+    .imagen1{
+        width:40%;
+
+    }
+    .video{
+        width: 40%;
+    }
+ }
+ /* todo la informacion
+el resumen de cada uno de nosotros con todos los trabajos de todos nosoyros 
+en el munu va decir  el nombre de cada una estods van ha desplegar los trabajos de cada uno redes sociales, wix, facebook, youtube,
+  y word */
+
+  

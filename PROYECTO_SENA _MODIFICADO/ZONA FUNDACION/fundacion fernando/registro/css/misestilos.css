@@ -1,0 +1,140 @@
+body{
+	background-image:
+	 url(/imagenes/fondo.jpg);:
+	font: 15px arial,helvetica,sans-serif;
+	color:green;
+	padding:5px;
+	margin:15px;
+	background-color:#E0FFFF;
+	 
+	}
+
+	#menu{
+		width: 900px;
+		margin-top: : 1px;
+		border: 3px solid:#ccff99;
+		padding: 1px 1px;
+		background-color: #ccc;
+		text-align: center;
+		float: center;
+	}
+	#menu li{
+		display: inline-flex;
+		padding: 6px;
+		margin-top:5px;
+		font: bold 20px Monotype Corsiva;
+		text-align: center;
+	}
+
+	#encabezado{
+		border:6px solid: black;
+		padding: 6px;
+		top:110px;
+
+	}
+	header{
+		background-color: 
+		color:black;
+		padding:5px;
+		margin: 5px;
+	}
+	header{
+		color:black;
+		text-align: center;
+	}
+	h1{
+		font: bold 90px Colonna MT,sans-serif;
+	}
+	h2{
+		font: bold 30px Charlemagne Std,sans-serif;
+	}
+	 p{
+		font-size: 20px;
+		font:bold 20px Comic Sans MS;
+		color:#483d8b;
+	}
+	.contenedor{
+		border: 2px solid black;
+		padding: 2px;
+		border: currentColor:black;
+		background: #e6e6fa;
+		width: 800px;
+		text-align: center;
+		border-radius: 50px;
+		float: center;
+
+	}
+	
+	a{
+		font- size:20px; 
+		text-decoration: none;
+		padding: 10px 20px;
+		margin: 10px 20px 10px 0px;	
+		display:inline-block;
+		background: #20b2aa;
+		color:#ffe4e1;
+		padding:10px 20px;
+		box-shadow: 3px 5px 0px #000080;
+
+	}
+
+
+	a:link{
+		color:#ffe4e1;
+	}
+	a:hover{
+		text-decoration: underline;
+		background:#ff00ff;
+		color:black;
+	}
+	a:active{
+		background: #d8bfd8;
+	}
+	aside{
+		width: 25%;
+		border: 1px solid #ccc;
+		margin: 20px;
+		padding: 20px;
+	}
+
+	label{
+		font-size: 12px;
+		display: block;
+		width: 100%;
+	}
+	input,textarea{
+		margin-bottom: 20px;
+		width: 100%;
+		padding: 10px;
+		-webkit-box-sizing:border-box;
+		-moz-box-sizing:border-box;
+		box-sizing: border-box;
+		border:1px solid #ccc;
+	}
+
+	input:focus;textarea:focus{
+		border: 1px solid #1668c4;
+	}
+
+	input[type="submit"]{
+		margin-bottom:0;
+		background: #1668c4;
+		color: #fff;
+		border:nome; 
+	}
+
+	input[type="submit"];hover{
+		background: #4a88f4;
+		
+	}
+	
+	
+	.caja{
+		position: absolute;
+		top:500px;
+		bottom: 0px;
+		right:px;
+		left: 950px;
+		width: 1000px;
+	}
+

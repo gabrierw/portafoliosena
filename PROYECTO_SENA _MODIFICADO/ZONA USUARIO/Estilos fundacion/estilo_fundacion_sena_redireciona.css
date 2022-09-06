@@ -1,0 +1,44 @@
+
+#principal{
+
+
+
+  margin-left: 350px;
+  margin-top: 100px;
+  width: 25%;
+  
+  float: left;
+
+}
+
+
+#imagen1{
+width: 100px;
+height: 100px;
+cursor: pointer;
+
+
+
+}
+
+#imagen2{
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    
+
+
+
+}
+
+#segundo{
+
+    margin-left: 200px;
+    margin-top: 100px; 
+    width: 25%;
+    
+    height: 10%;
+    float: left;
+
+
+}
